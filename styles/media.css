@@ -1,0 +1,36 @@
+@media (max-width: 1400px){}
+@media (max-width: 1200px){}
+@media (max-width: 1024px){}
+@media (max-width: 992px){}
+@media (max-width: 768px){
+   
+   input:checked~nav .header__nav-list{
+      opacity: 1;
+      z-index: 1;
+   }
+   
+   .header__nav-list{
+      opacity: 0;
+      z-index: -1;
+   }
+   
+   .toggler{
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+   }
+   
+   .bar{
+      width: 40px;
+      height: 2px;
+      background: #fff;
+   }
+   
+}
+@media (max-width: 576px){}
+@media (max-width: 480px){}
+@media (max-width: 320px){}
+
+#toggle{
+   display: none;
+}
